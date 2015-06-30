@@ -12,6 +12,7 @@ license=('GPL' 'custom:Brother')
 depends=('sane' 'sed' 'libusb-compat')
 install=brscan3.install
 
+# TODO: For 32-bit systems, 0.2.13-1 is linked to 0.2.11-4, so this link is dead
 source_i686=("http://download.brother.com/welcome/dlf006644/${pkgname}-${pkgver/_/-}.i386.rpm")
 md5sums_i686=('bf7b7d00c25597339ac5b87f1707cf75')
 
